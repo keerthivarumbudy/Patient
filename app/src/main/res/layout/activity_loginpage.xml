@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.patient.loginpage">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="97dp"
+        android:layout_height="33dp"
+        android:text="LOGIN"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="157dp"
+        tools:layout_editor_absoluteY="31dp" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Email id"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="96dp" />
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="169dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="211dp"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="234dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="203dp"
+        android:layout_height="37dp"
+        android:text="Forgot password?"
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="297dp" />
+
+</android.support.constraint.ConstraintLayout>
