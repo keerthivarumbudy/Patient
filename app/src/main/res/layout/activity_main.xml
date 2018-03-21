@@ -9,6 +9,7 @@
     android:orientation="vertical">
 
     <Button
+        android:id="@+id/b1"
         android:layout_width="150dp"
         android:layout_height="15dp"
         android:text="Sign up"
@@ -19,6 +20,7 @@
         android:layout_marginBottom="25dp"
         />
     <Button
+        android:id="@+id/b2"
         android:layout_width="150dp"
         android:layout_height="15dp"
         android:text="Login"
@@ -28,6 +30,7 @@
         android:layout_gravity="center_horizontal"/>
 
     <Button
+        android:id="@+id/b3"
         android:layout_width="150dp"
         android:layout_height="15dp"
         android:layout_gravity="center_horizontal"
